@@ -1,7 +1,15 @@
 # AI_WaterTracker-
 AI-powered Water Intake Tracker with FastAPI, Streamlit, and Docker support 💧
-### Run with Docker
+### About project
+It tracks water intake, gives AI suggestions, stores history in SQLite, and supports a web dashboard.
+**How AI works**:
+Uses Google Gemini API to provide a short personalized hydration suggestion for each entry.
+**How data is stored**: SQLite database (water_intake.db) stores user intake history.
 
-1. **Build Docker image:**
+**How to test endpoints**: Mention FastAPI docs (/docs) and example payloads.
+
+### Docker link
 ```bash
-docker build -t watertracker-api .
+docker pull bhuvanesh3602/watertracker-api:latest
+docker run -p 8000:8000 bhuvanesh/watertracker-api:latest
+
