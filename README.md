@@ -10,6 +10,6 @@ Uses Google Gemini API to provide a short personalized hydration suggestion for 
 
 ### Docker link
 ```bash
-docker pull bhuvanesh3602/watertracker-api:latest
-docker run -p 8000:8000 bhuvanesh/watertracker-api:latest
+docker pull bhuvanesh3602/waterintake-app
+docker run -p 8501:8501 --env-file .env bhuvanesh3602/waterintake-app
 
