@@ -1,0 +1,3 @@
+2025-10-18 16:02:35,515 - INFO - water_intake_app - \u2705 Gemini API key loaded successfully.
+2025-10-18 16:02:35,530 - INFO - water_intake_app - \u2705 Database initialized successfully
+2025-10-18 16:02:35,530 - INFO - water_intake_app - \U0001f680 FastAPI started and DB initialized.
