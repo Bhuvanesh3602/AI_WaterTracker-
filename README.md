@@ -11,5 +11,5 @@ Uses Google Gemini API to provide a short personalized hydration suggestion for 
 ### Docker link
 ```bash
 docker pull bhuvanesh3602/waterintake-app
-docker run -p 8501:8501 --env-file .env bhuvanesh3602/waterintake-app
+docker run -p 8501:8501 --env GEMINI_API_KEY=your_api_key_here bhuvanesh3602/waterintake-app
 
