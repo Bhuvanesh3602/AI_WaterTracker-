@@ -18,6 +18,6 @@ docker run -p 8501:8501 bhuvanesh3602/waterintake-app
 
 ```bash
 localhost:8501
-
-**In your browser**
+```
+**Run this in  your browser**
 
