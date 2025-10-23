@@ -12,4 +12,7 @@ Uses Google Gemini API to provide a short personalized hydration suggestion for 
 ```bash
 docker pull bhuvanesh3602/waterintake-app
 docker run -p 8501:8501 bhuvanesh3602/waterintake-app
+## Then
+``` localhost:8501
+In your browser
 
